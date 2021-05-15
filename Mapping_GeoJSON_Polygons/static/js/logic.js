@@ -30,7 +30,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/SindieCastro/Mapping_Earthquakes/Mapping_GeoJSON_Polygons/torontoNeighborhoods.json";
+let torontoHoods = "https://raw.githubusercontent.com/SindieCastro/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 
 // Grabbing our GeoJSON data.
 d3.json(torontoHoods).then(function(data) {
