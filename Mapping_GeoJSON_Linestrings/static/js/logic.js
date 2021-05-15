@@ -28,6 +28,7 @@ let map = L.map('mapid', {
     layers: [streets]
 })
 
+<<<<<<< HEAD
 // Accessing the Toronto airline routes GeoJSON URL.
 let torontoData = "https://raw.githubusercontent.com/SindieCastro/Mapping_Earthquakes/Mapping_GeoJSON_Linestrings/torontoRoutes.json";
 
@@ -49,3 +50,7 @@ L.geoJson(data).addTo(map);
 //       }   
 //   }).addTo(map);
 // });
+=======
+// Pass our map layers into our layers control and add the layers control to the map.
+L.control.layers(baseMaps).addTo(map);
+>>>>>>> f562afde693fc282d12e045a84c2f62ceba75bfd
